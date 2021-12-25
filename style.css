@@ -1,0 +1,41 @@
+body {
+    background-image: url('images/sw.png');
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 300px;
+    margin-right: 238px;
+}
+
+h2{
+    color: yellow;
+    width: 150px;
+    background-color: rgb(8, 56, 99);
+    border: 1px double greenyellow;
+    border-bottom-left-radius: 50px ;
+    border-top-right-radius : 50px;
+
+}
+    h1 {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    /* background-color: white; */
+    width: 100px;
+}
+
+button,input {
+    border: 1px solid rgb(154, 38, 201);
+    background-color: rgb(173, 143, 143);
+    border-radius: 100px;
+    padding: 5px;
+    letter-spacing: 3px;
+    margin: 2px;
+    font-weight: bold;
+
+}
+ 
+button :hover {
+    border: 1px solid blue;
+    border-radius: 1px solid green;
+    background-color: yellowgreen;
+}
